@@ -16,8 +16,8 @@ const insertar = async(datos) =>{
         values: datos,
     }
 
-    const reuslt = await pool.query(consulta);
-    return reuslt;
+    const result = await pool.query(consulta);
+    return result;
 };
 
 const consultar = async() =>{
